@@ -23,7 +23,7 @@ const TopNav = () => {
   return (
     <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
       <Link href="/home">
-        <a className="navbar-brand ps-3">Dashboard</a>
+        <a className="navbar-brand ps-3"><h3>Dashboard</h3></a>
       </Link>
 
       <button
@@ -68,7 +68,7 @@ const TopNav = () => {
         <li>
           <Link href="#!">
             <a className="nav-link" onClick={() => signOut()}>
-              Logout
+              Salir
             </a>
           </Link>
         </li>

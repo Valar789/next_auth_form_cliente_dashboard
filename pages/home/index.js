@@ -4,7 +4,7 @@ import { getSession } from "next-auth/react";
 
 const index = () => {
   const [user, setUser] = useState(null);
-  console.log(user);
+
 
   useEffect(() => {
     (async() => {
@@ -17,7 +17,7 @@ const index = () => {
     <Index>
       <main>
         <div className="container-fluid px-4">
-        <h1 className="mt-4">Bienvenido {user !==null ? user.name : 'Welcome'}</h1>
+        <h1 className="py-5">Bienvenido {user !==null ? user.name : 'Welcome'}</h1>
           <ol className="breadcrumb mb-4">
             <li className="breadcrumb-item active">Perfil</li>
           </ol>

@@ -61,8 +61,8 @@ const Index = ({children}) => {
                         </a>
                         </Link>
                         <Link href='#!'>
-                        <a className="nav-link" onClick={() => signOut()}>
-                          Logout
+                        <a className="nav-link text-danger" onClick={() => signOut()}>
+                          Cerrar Sesion
                         </a>
                         </Link>
                       </div>
@@ -81,7 +81,7 @@ const Index = ({children}) => {
                     <div className="container-fluid px-4">
                       <div className="d-flex align-items-center justify-content-between small">
                         <div className="text-muted">
-                          Copyright &copy; Your Website 2022
+                          Copyright &copy; Luis 2022
                         </div>
                         <div>
                           <a href="#">Privacy Policy</a>
